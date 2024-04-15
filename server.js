@@ -13,7 +13,7 @@ const FRONTEND = process.env.FRONTEND
 //const mconn = "mongodb+srv://ilinehc6:Mongoose$626@nodeapi.v8hrsre.mongodb.net/nodeapi?retryWrites=true&w=majority&appName=nodeapi"
 
 var corsOptions = {
-    origin: FRONTEND, //['http://127.0.0.1:3001','http://example.com'],
+    origin: [FRONTEND, 'http://localhost:5173'],
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
   }
 
